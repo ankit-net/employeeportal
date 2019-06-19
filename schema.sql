@@ -1,3 +1,9 @@
+drop database employeeportal;
+
+CREATE database employeeportal;
+
+use employeeportal;
+
 CREATE TABLE employee(
     empid int auto_increment,
     firstname varchar(100),
@@ -6,7 +12,7 @@ CREATE TABLE employee(
     address varchar(500),
     stateid int,
     countryid int,
-    cityname varchar(100),
+    cityid int,
     departmentid int,
     managerid int,
     active boolean,
@@ -19,6 +25,9 @@ CREATE TABLE employee(
 ) engine=InnoDB;
 
 alter table employee add constraint fk_deprt_join foreign key (departmentid) references department(id);
+alter table employee add constraint fk_city_join foreign key (cityid) references city(id);
+alter table employee add constraint fk_state_join foreign key (stateid) references state(id);
+alter table employee add constraint fk_country_join foreign key (countryid) references country(id);
 
 create table department (
 	id int auto_increment primary key,
@@ -50,6 +59,5 @@ create table country (
 	id int auto_increment,
     name varchar(100) not null,
     active boolean default true,
-
     constraint pk_country primary key (id)
 ) engine=InnoDB;
