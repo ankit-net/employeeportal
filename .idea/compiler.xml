@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="employee-controller" />
+        <module name="employee-dao" />
+        <module name="employee-service" />
         <module name="EmployeeRestAPI" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="employee-crud-ms" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>

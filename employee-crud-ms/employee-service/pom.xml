@@ -12,6 +12,12 @@
     <groupId>com.ankit</groupId>
     <artifactId>employee-service</artifactId>
 
+    <modules>
+        <module>../employee-dao</module>
+    </modules>
+
+    <packaging>pom</packaging>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

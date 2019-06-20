@@ -12,6 +12,13 @@
     <groupId>com.ankit</groupId>
     <artifactId>employee-controller</artifactId>
 
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../employee-service</module>
+
+    </modules>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
