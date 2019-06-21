@@ -153,4 +153,19 @@ public class EmployeeModel {
     public void setUpdatedby(int updatedby) {
         this.updatedby = updatedby;
     }
+
+    @Override
+    public String toString() {
+        return "EmployeeModel{" +
+                "empid=" + empid +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                ", managerid=" + managerid +
+                ", active=" + active +
+                ", createddate=" + createddate +
+                ", updatedate=" + updatedate +
+                '}';
+    }
 }

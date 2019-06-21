@@ -1,11 +1,14 @@
 package com.ankit.web;
 
+import com.ankit.model.ApiResponse;
 import com.ankit.service.EmployeeServiceImpl;
 import com.ankit.model.EmployeeModel;
 import com.ankit.model.EmployeeResponse;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -44,5 +47,21 @@ public class EmployeeController {
         return employeeResponse;
     }
 
+    @PostMapping("/add")
+    public ApiResponse addEmployee(@RequestBody EmployeeModel employeeModel){
+        ApiResponse apiResponse = new ApiResponse();
 
+        try {
+            logger.info("add employee source:{}"+ employeeModel);
+            employeeService.addEmployee(employeeModel);
+            apiResponse.setStatus(true);
+        }
+        catch (Exception ex) {
+            apiResponse.setErrorcode("500");
+            apiResponse.setErrorMessage("Internal Server Error");
+            logger.error("Server Error", ex);
+        }
+
+        return apiResponse;
+    }
 }
