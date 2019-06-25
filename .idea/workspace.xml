@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a23feba-2644-45f8-980e-ed9fa792ea1c" name="Default Changelist" comment="add database schema">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/EmployeeClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/EmployeeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/EmployeeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/web/EmployeeClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmployeeRestAPI/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeRestAPI/EmployeeRestAPI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/EmployeeDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/EmployeeDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeManagementService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeManagementService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmployeeRestAPI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeRestAPI/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-controller/employee-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-controller/employee-controller.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-crud-ms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-crud-ms.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-dao/employee-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-dao/employee-dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-dao/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-service/employee-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-service/employee-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,6 +30,7 @@
     <ignored path="$PROJECT_DIR$/employee-crud-ms/employee-dao/target/" />
     <ignored path="$PROJECT_DIR$/manageemployee/target/" />
     <ignored path="$PROJECT_DIR$/employee-crud-ms/target/" />
+    <ignored path="$PROJECT_DIR$/EmployeeManagementService/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,51 +39,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-controller/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="9" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-dao/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state>
+              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-controller/src/main/java/com/ankit/web/EmployeeController.java">
+        <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/EmployeeClientConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/web/EmployeeClientController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="30" column="43" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="43" />
+              <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,56 +86,65 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/model/EmployeeResponse.java">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-41">
+              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/web/EmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="719">
+              <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/EmployeeResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding>
-                <element signature="e#429#430#0" expanded="true" />
-              </folding>
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/EmployeeServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/service/EmployeeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-dao/src/main/java/com/ankit/dao/IEmployeeDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/IEmployeeService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="809">
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,11 +184,28 @@
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/model/ApiResponse.java" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/model/EmployeeResponse.java" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-controller/src/main/java/com/ankit/web/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-controller/pom.xml" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-service/pom.xml" />
         <option value="$PROJECT_DIR$/employee-crud-ms/employee-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/EmployeeConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/ApiResponse.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/EmployeeResponse.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/service/IEmployeeService.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/EmployeeModel.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/service/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/web/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/entity/Employee.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/IEmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/EmployeeDAO.java" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientInterface.java" />
+        <option value="$PROJECT_DIR$/EmployeeManagementService/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientServiceImpl.java" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/web/EmployeeClientController.java" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/EmployeeClientConfig.java" />
+        <option value="$PROJECT_DIR$/EmployeeRestAPI/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -205,7 +231,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,37 +241,156 @@
             <path>
               <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-crud-ms" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-crud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-crud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-crud-ms" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-service" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeManagementService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ankit" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="employeeportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="employeeportal" type="462c0819:PsiDirectoryNode" />
+              <item name="EmployeeRestAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561032178062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561456012110" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,6 +403,40 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.EmployeeConfig">
+    <configuration name="EmployeeClientConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ankit.EmployeeClientConfig" />
+      <module name="EmployeeRestAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ankit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ankit.EmployeeConfig" />
+      <module name="EmployeeManagementService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ankit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EmployeeConfig" />
+        <item itemvalue="Application.EmployeeClientConfig" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -299,14 +477,27 @@
       <option name="project" value="LOCAL" />
       <updated>1561030870262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added single layer for employee management">
+      <created>1561117816007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561117816007</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add employee functionality">
+      <created>1561119284306</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561119284306</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.27265862" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.2968278" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.25377643" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -314,17 +505,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="DB Browser" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3283582" />
-      <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3283582" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3283582" />
+      <window_info anchor="bottom" id="DB Execution Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -360,21 +552,32 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add database schema" />
     <MESSAGE value="modify database schema" />
     <MESSAGE value="adding dependency and entity to dao project" />
     <MESSAGE value="employee listing functionality: controller, service, dao code" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee listing functionality: controller, service, dao code" />
+    <MESSAGE value="added single layer for employee management" />
+    <MESSAGE value="add employee functionality" />
+    <MESSAGE value="changes:&#10;1) dao implementation: change from persist to merge &#10;2) client code implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes:&#10;1) dao implementation: change from persist to merge &#10;2) client code implementation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/employeeportal.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/employee-service.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/employeemanagement/pom.xml" />
     <entry file="file://$PROJECT_DIR$/manage-employee/pom.xml" />
     <entry file="file://$PROJECT_DIR$/web/pom.xml" />
@@ -384,14 +587,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/manageemployee/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-dao/employee-dao.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -520,14 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/src/main/java/com/ankit/impl/EmployeeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -539,36 +726,235 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-controller/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-dao/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/employee-crud-ms/employee-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/entity/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/EmployeeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/IEmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/dao/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/EmployeeConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/EmployeeModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/model/EmployeeResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/web/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="54" column="50" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/model/EmployeeResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeManagementService/src/main/java/com/ankit/service/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/EmployeeClientConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/web/EmployeeClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" column="79" selection-start-line="21" selection-start-column="79" selection-end-line="21" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/java/com/ankit/service/EmployeeClientInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EmployeeRestAPI/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
