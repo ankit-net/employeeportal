@@ -28,7 +28,11 @@ public class EmployeeDAO implements IEmployeeDAO {
 
     @Override
     public void addEmployee(Employee employee) {
-        entityManager.persist(employee);
+        //entityManager.persist(employee);
+        //replace persist operation with merge operation. this change will ensure that if employee
+        //already exists, then update operation will be performed otherwise insert operation will be
+        //performed.
+        entityManager.merge(employee);
     }
 
     @Override
