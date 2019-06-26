@@ -1,9 +1,11 @@
 package com.ankit.web;
 
+import com.ankit.model.ApiResponse;
 import com.ankit.model.EmployeeResponse;
 import com.ankit.service.EmployeeClientInterface;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -24,4 +26,10 @@ public class EmployeeClientController {
         logger.info("Exit EmployeeClientController");
         return employeeResponse;
     }
+
+    @GetMapping("/hello")
+    public ApiResponse helloMessage(){
+        return new ApiResponse();
+    }
+
 }

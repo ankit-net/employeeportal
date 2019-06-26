@@ -25,4 +25,22 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <finalName>servicing</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.2.RELEASE</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
